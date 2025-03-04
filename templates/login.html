@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    </head>
+    <body id="bodyLogin">
+
+        <div class="transparentBar">
+            <h1 class="mainHeader">Login</h1>
+        </div>
+
+        {% if message %}
+            <div class="errorMessage" >
+                <p>{{ message }}</p>
+            </div>
+        {% endif %}
+
+
+        <form action="/" method="POST" id="loginBars">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit" id="loginButton">Login</button>
+
+        </form>
+
+        <p id="registerText">Don't have an account? <a href="/register">Register here!</a></p>
+
+    </body>
+</html>
