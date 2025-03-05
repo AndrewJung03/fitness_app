@@ -1,18 +1,13 @@
-# Web Application Exercise
-
-A little exercise to build a web application following an agile development process. See the [instructions](instructions.md) for more detail.
+# Fitness App
 
 ## Product vision statement
 Our mission is to inspire and empower NYU students to take control of their fitness journey. We aim to provide the tools and a supportive community that enable everyone to achieve their fitness goals.
 
-## Team Members
-Andrew Jung: AndrewJung03  
+## Demo
+![Demo](images/gif.gif)
 
-Josh Lavroff: joshlavroff
 
-Krish Kothari: krish-nyu
 
-Keith Dusling: kdusling56
 
 
 ## User stories
@@ -38,13 +33,6 @@ Keith Dusling: kdusling56
 ## Steps necessary to run the software
 
 1. Clone the repository.  
-2. Donwload the env file from discord chat.  
-3. Rename the env file to .env (discord doesn't allow for hidden files).  
-4. Place .env file in root of the project directory.  
-5. Start a virtual enviorment.  
-6. install dependancies (pip/pip3 install -r requirements.txt).   
-7. Run application (python/python3 app.py).  
-
-## Task boards
-
-https://github.com/software-students-spring2025/2-web-app-two/projects?query=is%3Aopen
+2. Start a virtual enviorment.  
+3. install dependancies (pip/pip3 install -r requirements.txt).   
+4. Run application (python/python3 app.py).  
